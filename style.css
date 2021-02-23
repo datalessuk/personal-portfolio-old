@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
-@import "./styles/global/style.css";
 
+@import "./styles/global/style.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
 *{
@@ -10,6 +10,15 @@
 }
 
 body{
-    font-family: 'Roboto Condensed', sans-serif;
-    background-color: var(--color-primary);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    border-top: 8px solid var(--color-primary);
+    background-image: linear-gradient(to bottom,#00000088 30%,#ffffff44 100%),url(./img/header-background.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
