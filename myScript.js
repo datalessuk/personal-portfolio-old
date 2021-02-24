@@ -1,0 +1,2 @@
+//let newWindow = window.open;
+

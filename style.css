@@ -45,6 +45,8 @@ header{
     font-weight: 300;
 }
 
+
+/* Nav bar */
 nav{
     position: absolute;
     top:2rem;
@@ -68,6 +70,12 @@ nav{
     text-decoration: none;
     color:white
 }
+.nav-links li a:hover{
+    color: var(--color-primary);
+}
+
+/*nav bar end */
+
 
 .about-me-container{
     margin: 0 auto;
